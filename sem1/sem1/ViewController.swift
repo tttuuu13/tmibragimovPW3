@@ -11,9 +11,12 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    @IBOutlet weak var textField: UILabel!
+    
+    @IBAction func pressNumber(_ sender: UIButton) {
+        textField.text! += (sender.titleLabel?.text)!
+    }
+    
 }
 
