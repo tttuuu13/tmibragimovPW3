@@ -8,14 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     @IBOutlet weak var textField: UILabel!
     
     @IBAction func pressNumber(_ sender: UIButton) {
-        textField.text! += (sender.titleLabel?.text)!
+        let input = sender.titleLabel?.text!
     }
     
 }

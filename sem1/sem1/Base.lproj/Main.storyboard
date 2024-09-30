@@ -28,7 +28,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="PxJ-Su-4LB">
-                                <rect key="frame" x="59" y="348" width="275" height="275"/>
+                                <rect key="frame" x="59" y="348" width="275" height="375"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="Zj2-sm-HxD">
                                         <rect key="frame" x="0.0" y="0.0" width="275" height="75"/>
@@ -167,6 +167,53 @@
                                                 </buttonConfiguration>
                                                 <connections>
                                                     <action selector="pressNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ve3-aY-EZD"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="urH-F8-Mew">
+                                        <rect key="frame" x="0.0" y="300" width="275" height="75"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gHz-kQ-hrO">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="75"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="75" id="60r-pF-L20"/>
+                                                    <constraint firstAttribute="height" constant="75" id="QfM-YV-Rgo"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="0">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="pressNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="09z-W8-YD5"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u8E-RK-1Kz">
+                                                <rect key="frame" x="100" y="0.0" width="75" height="75"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="75" id="cIC-kj-U5i"/>
+                                                    <constraint firstAttribute="height" constant="75" id="rzq-Ds-z54"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="+">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="pressNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8Hr-1S-KXg"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gtW-gY-p08">
+                                                <rect key="frame" x="200" y="0.0" width="75" height="75"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="75" id="NpM-JW-fvG"/>
+                                                    <constraint firstAttribute="width" constant="75" id="z40-5a-J84"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="gray" title="=">
+                                                    <fontDescription key="titleFontDescription" type="system" pointSize="40"/>
+                                                </buttonConfiguration>
+                                                <connections>
+                                                    <action selector="pressNumber:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9EH-lh-NnI"/>
                                                 </connections>
                                             </button>
                                         </subviews>
