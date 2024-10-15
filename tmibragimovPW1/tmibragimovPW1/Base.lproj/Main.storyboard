@@ -28,46 +28,53 @@
                                     <action selector="buttonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="swO-hj-XFf"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tZn-nG-wuV">
-                                <rect key="frame" x="32" y="226" width="361" height="300"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LI1-ov-Yla">
-                                        <rect key="frame" x="10" y="122" width="190" height="190"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SvS-XP-yyH">
-                                        <rect key="frame" x="35" y="129" width="140" height="140"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Byj-bv-9Vk">
-                                        <rect key="frame" x="103" y="106" width="250" height="117"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
-                                    </view>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="stick" translatesAutoresizingMaskIntoConstraints="NO" id="5JV-WU-qTU">
+                                <rect key="frame" x="189.66666666666666" y="204" width="14" height="504"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="txe-pS-rVB">
+                                <rect key="frame" x="132.66666666666666" y="414" width="127.99999999999997" height="128"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="361" id="H5D-qT-tnr"/>
-                                    <constraint firstAttribute="height" constant="300" id="wt2-wm-tWv"/>
+                                    <constraint firstAttribute="width" constant="128" id="NqP-Kw-fTp"/>
+                                    <constraint firstAttribute="height" constant="128" id="fXM-4f-mgh"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="je4-qh-E8H">
+                                <rect key="frame" x="132.66666666666666" y="278" width="127.99999999999997" height="128"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="77r-vJ-RAP"/>
+                                    <constraint firstAttribute="width" constant="128" id="vei-m3-CrS"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dUk-W0-WLa">
+                                <rect key="frame" x="132.66666666666666" y="142" width="127.99999999999997" height="128"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="3Je-uH-PQL"/>
+                                    <constraint firstAttribute="width" constant="128" id="O0X-Lg-J2N"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="tZn-nG-wuV" secondAttribute="bottom" constant="-567" id="5tL-5c-l2b"/>
-                            <constraint firstItem="tZn-nG-wuV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6BV-rQ-vcP"/>
+                            <constraint firstItem="dUk-W0-WLa" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9eS-hV-8df"/>
                             <constraint firstItem="qN8-Lk-n88" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CvN-UI-mes"/>
-                            <constraint firstItem="tZn-nG-wuV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QWr-Bb-UkC"/>
-                            <constraint firstItem="tZn-nG-wuV" firstAttribute="top" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="Scn-Uf-ero"/>
+                            <constraint firstItem="5JV-WU-qTU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NV5-Qw-LgI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qN8-Lk-n88" secondAttribute="bottom" constant="20" id="TTm-Fg-LJM"/>
+                            <constraint firstItem="txe-pS-rVB" firstAttribute="top" secondItem="je4-qh-E8H" secondAttribute="bottom" constant="8" id="cae-NG-UaA"/>
+                            <constraint firstItem="je4-qh-E8H" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nYS-rz-scB"/>
+                            <constraint firstItem="qN8-Lk-n88" firstAttribute="top" secondItem="5JV-WU-qTU" secondAttribute="bottom" constant="30" id="pdU-rb-q9d"/>
+                            <constraint firstItem="je4-qh-E8H" firstAttribute="top" secondItem="dUk-W0-WLa" secondAttribute="bottom" constant="8" id="pfu-42-2qn"/>
+                            <constraint firstItem="qN8-Lk-n88" firstAttribute="top" secondItem="txe-pS-rVB" secondAttribute="bottom" constant="196" id="tLZ-bj-xrn"/>
+                            <constraint firstItem="txe-pS-rVB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ucj-G2-snV"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outletCollection property="views" destination="Byj-bv-9Vk" collectionClass="NSMutableArray" id="koi-e2-PAW"/>
-                        <outletCollection property="views" destination="LI1-ov-Yla" collectionClass="NSMutableArray" id="p1F-D2-DKa"/>
+                        <outletCollection property="views" destination="dUk-W0-WLa" collectionClass="NSMutableArray" id="KS6-zI-XVS"/>
+                        <outletCollection property="views" destination="je4-qh-E8H" collectionClass="NSMutableArray" id="2rV-Ma-fES"/>
+                        <outletCollection property="views" destination="txe-pS-rVB" collectionClass="NSMutableArray" id="A5y-bA-8lD"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -77,17 +84,12 @@
     </scenes>
     <resources>
         <image name="sparkles" catalog="system" width="115" height="128"/>
+        <image name="stick" width="14" height="504"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
