@@ -28,8 +28,8 @@
                                     <action selector="buttonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="swO-hj-XFf"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tZn-nG-wuV">
-                                <rect key="frame" x="16" y="276" width="361" height="300"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tZn-nG-wuV">
+                                <rect key="frame" x="32" y="226" width="361" height="300"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LI1-ov-Yla">
                                         <rect key="frame" x="10" y="122" width="190" height="190"/>
