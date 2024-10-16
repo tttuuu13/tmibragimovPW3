@@ -24,12 +24,20 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vgX-Lm-Cxh">
                                         <rect key="frame" x="0.0" y="-40.000000000000007" width="370" height="200"/>
                                         <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q7S-2z-lPy">
+                                                <rect key="frame" x="10" y="133" width="10" height="20"/>
+                                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="20" id="HKd-aX-AfX"/>
+                                                    <constraint firstAttribute="width" constant="10" id="RCy-ph-g41"/>
+                                                </constraints>
+                                            </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ECh-IY-mDI">
-                                                <rect key="frame" x="10" y="133" width="10" height="67"/>
+                                                <rect key="frame" x="10" y="155" width="10" height="45"/>
                                                 <color key="backgroundColor" name="CarColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="10" id="S5e-tM-NQE"/>
-                                                    <constraint firstAttribute="height" constant="67" id="Zid-4D-ujm"/>
+                                                    <constraint firstAttribute="height" constant="45" id="Zid-4D-ujm"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S3t-0s-vZo">
@@ -38,6 +46,14 @@
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="25" id="DpZ-9E-9wJ"/>
                                                     <constraint firstAttribute="width" constant="10" id="NnB-WF-YIa"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qr9-Nz-XgD">
+                                                <rect key="frame" x="50" y="122" width="10" height="28"/>
+                                                <color key="backgroundColor" name="CarColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="28" id="9D2-WT-4yy"/>
+                                                    <constraint firstAttribute="width" constant="10" id="Bga-Z7-4T7"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q2N-nt-kov">
@@ -160,14 +176,6 @@
                                                     <constraint firstAttribute="width" constant="10" id="jfE-mF-Hzn"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qr9-Nz-XgD">
-                                                <rect key="frame" x="50" y="122" width="10" height="28"/>
-                                                <color key="backgroundColor" name="CarColor"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="28" id="9D2-WT-4yy"/>
-                                                    <constraint firstAttribute="width" constant="10" id="Bga-Z7-4T7"/>
-                                                </constraints>
-                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
@@ -179,6 +187,7 @@
                                             <constraint firstAttribute="bottom" secondItem="Q2N-nt-kov" secondAttribute="bottom" constant="45" id="7Dc-zD-GLS"/>
                                             <constraint firstItem="tlg-iN-caP" firstAttribute="leading" secondItem="VMa-E4-0he" secondAttribute="trailing" constant="10" id="88M-1i-jEW"/>
                                             <constraint firstAttribute="bottom" secondItem="9mT-lN-lvd" secondAttribute="bottom" id="8op-pt-M1C"/>
+                                            <constraint firstItem="ECh-IY-mDI" firstAttribute="top" secondItem="Q7S-2z-lPy" secondAttribute="bottom" constant="2" id="8tX-co-Qhi"/>
                                             <constraint firstItem="qr9-Nz-XgD" firstAttribute="leading" secondItem="S3t-0s-vZo" secondAttribute="trailing" constant="10" id="9dJ-3X-CcK"/>
                                             <constraint firstItem="nCm-qd-rHm" firstAttribute="leading" secondItem="WCi-5j-gFd" secondAttribute="trailing" constant="10" id="C26-cN-Anb"/>
                                             <constraint firstAttribute="height" constant="200" id="DM6-Hd-2AP"/>
@@ -197,6 +206,7 @@
                                             <constraint firstAttribute="bottom" secondItem="nCm-qd-rHm" secondAttribute="bottom" constant="45" id="bg5-Iv-y5N"/>
                                             <constraint firstItem="xJa-t8-Ng2" firstAttribute="leading" secondItem="9mT-lN-lvd" secondAttribute="trailing" constant="10" id="cBa-Av-JWL"/>
                                             <constraint firstAttribute="bottom" secondItem="4Y4-8k-o4h" secondAttribute="bottom" id="f4Z-ul-eyA"/>
+                                            <constraint firstItem="S3t-0s-vZo" firstAttribute="leading" secondItem="Q7S-2z-lPy" secondAttribute="trailing" constant="10" id="hKD-YA-RLR"/>
                                             <constraint firstAttribute="bottom" secondItem="ECh-IY-mDI" secondAttribute="bottom" id="iyl-bf-5eC"/>
                                             <constraint firstAttribute="bottom" secondItem="3SY-D7-FWo" secondAttribute="bottom" id="j3e-a9-pc8"/>
                                             <constraint firstAttribute="bottom" secondItem="S3t-0s-vZo" secondAttribute="bottom" constant="45" id="qMX-m3-jjT"/>
@@ -225,6 +235,9 @@
                                             <constraint firstAttribute="width" constant="68" id="cxK-A7-2S5"/>
                                         </constraints>
                                     </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="carShadow" translatesAutoresizingMaskIntoConstraints="NO" id="bPh-2h-FcH">
+                                        <rect key="frame" x="-35" y="156" width="440" height="58"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -234,6 +247,8 @@
                                     <constraint firstAttribute="bottom" secondItem="BRJ-nQ-Kgm" secondAttribute="bottom" constant="18" id="G50-lK-TKM"/>
                                     <constraint firstAttribute="bottom" secondItem="vgX-Lm-Cxh" secondAttribute="bottom" constant="40" id="GUK-8s-Evq"/>
                                     <constraint firstAttribute="bottom" secondItem="Wi8-ER-A5d" secondAttribute="bottom" constant="18" id="HDa-Cq-Oo1"/>
+                                    <constraint firstItem="bPh-2h-FcH" firstAttribute="top" secondItem="wML-wH-NQ2" secondAttribute="top" constant="156.33000000000001" id="HtE-WC-OBh"/>
+                                    <constraint firstItem="bPh-2h-FcH" firstAttribute="centerX" secondItem="wML-wH-NQ2" secondAttribute="centerX" id="jE2-zs-paB"/>
                                     <constraint firstItem="Wi8-ER-A5d" firstAttribute="leading" secondItem="wML-wH-NQ2" secondAttribute="leading" constant="21" id="ogJ-xA-rkg"/>
                                     <constraint firstAttribute="width" constant="370" id="wOd-eZ-j5a"/>
                                 </constraints>
@@ -279,12 +294,16 @@
     <resources>
         <image name="arrowshape.backward.fill" catalog="system" width="128" height="104"/>
         <image name="arrowshape.forward.fill" catalog="system" width="128" height="104"/>
+        <image name="carShadow" width="440" height="58"/>
         <image name="wheel" width="344" height="344"/>
         <namedColor name="CarColor">
             <color red="0.55699998140335083" green="0.55699998140335083" blue="0.57599997520446777" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
