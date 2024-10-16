@@ -18,446 +18,271 @@
                         <rect key="frame" x="0.0" y="0.0" width="852" height="393"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vgX-Lm-Cxh">
-                                <rect key="frame" x="241" y="81.666666666666686" width="370" height="230"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wML-wH-NQ2">
+                                <rect key="frame" x="241" y="96.666666666666686" width="370" height="200"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Y3F-i2-VfE">
-                                        <rect key="frame" x="0.0" y="10" width="370" height="200"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vgX-Lm-Cxh">
+                                        <rect key="frame" x="0.0" y="-40.000000000000007" width="370" height="200"/>
                                         <subviews>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xn3-fC-M2V">
-                                                <rect key="frame" x="0.0" y="0.0" width="10" height="200"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wyC-D1-zqT">
-                                                        <rect key="frame" x="0.0" y="139" width="10" height="61"/>
-                                                        <color key="backgroundColor" name="CarColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="10" id="vgD-Ks-r9D"/>
-                                                            <constraint firstAttribute="height" constant="61" id="x5Z-ab-e3S"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                                <color key="backgroundColor" systemColor="secondaryLabelColor"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ECh-IY-mDI">
+                                                <rect key="frame" x="10" y="133" width="10" height="67"/>
+                                                <color key="backgroundColor" name="CarColor"/>
                                                 <constraints>
-                                                    <constraint firstItem="wyC-D1-zqT" firstAttribute="centerX" secondItem="Xn3-fC-M2V" secondAttribute="centerX" id="6PI-qt-FPa"/>
-                                                    <constraint firstAttribute="width" constant="10" id="Bu6-9y-zZu"/>
-                                                    <constraint firstAttribute="bottom" secondItem="wyC-D1-zqT" secondAttribute="bottom" id="bSy-gU-sCD"/>
-                                                    <constraint firstAttribute="height" constant="200" id="iJu-9p-m1O"/>
+                                                    <constraint firstAttribute="width" constant="10" id="S5e-tM-NQE"/>
+                                                    <constraint firstAttribute="height" constant="67" id="Zid-4D-ujm"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cWT-px-S4j">
-                                                <rect key="frame" x="20" y="0.0" width="10" height="200"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pDh-em-zcS">
-                                                        <rect key="frame" x="0.0" y="132" width="10" height="68"/>
-                                                        <color key="backgroundColor" name="CarColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="10" id="jaQ-68-kFy"/>
-                                                            <constraint firstAttribute="height" constant="68" id="mLi-7b-nOM"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S3t-0s-vZo">
+                                                <rect key="frame" x="30" y="130" width="10" height="25"/>
+                                                <color key="backgroundColor" name="CarColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="10" id="05X-6p-V5r"/>
-                                                    <constraint firstAttribute="bottom" secondItem="pDh-em-zcS" secondAttribute="bottom" id="X2D-Ei-fAX"/>
-                                                    <constraint firstItem="pDh-em-zcS" firstAttribute="centerX" secondItem="cWT-px-S4j" secondAttribute="centerX" id="ayD-Of-Cq9"/>
-                                                    <constraint firstAttribute="height" constant="200" id="pfq-Cs-hTU"/>
+                                                    <constraint firstAttribute="height" constant="25" id="DpZ-9E-9wJ"/>
+                                                    <constraint firstAttribute="width" constant="10" id="NnB-WF-YIa"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z9c-lL-G6F">
-                                                <rect key="frame" x="40" y="0.0" width="10" height="200"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KqC-o6-Vlf">
-                                                        <rect key="frame" x="0.0" y="112" width="10" height="48"/>
-                                                        <color key="backgroundColor" name="CarColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="48" id="ItB-m0-pEk"/>
-                                                            <constraint firstAttribute="width" constant="10" id="S2H-0p-gwm"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q2N-nt-kov">
+                                                <rect key="frame" x="70" y="110" width="10" height="45"/>
+                                                <color key="backgroundColor" name="CarColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="10" id="Qsz-e6-d8V"/>
-                                                    <constraint firstItem="KqC-o6-Vlf" firstAttribute="centerX" secondItem="Z9c-lL-G6F" secondAttribute="centerX" id="Wju-Xq-h9Q"/>
-                                                    <constraint firstAttribute="height" constant="200" id="fgZ-5d-Ooh"/>
-                                                    <constraint firstAttribute="bottom" secondItem="KqC-o6-Vlf" secondAttribute="bottom" constant="40" id="kyo-MD-Pqm"/>
+                                                    <constraint firstAttribute="width" constant="10" id="G4f-Le-V5g"/>
+                                                    <constraint firstAttribute="height" constant="45" id="IrQ-Vg-gFQ"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8Xx-Io-IQa">
-                                                <rect key="frame" x="60" y="0.0" width="10" height="200"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dYB-60-CzJ">
-                                                        <rect key="frame" x="0.0" y="97.999999999999986" width="10" height="52.000000000000014"/>
-                                                        <color key="backgroundColor" name="CarColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="52" id="FQx-8R-k4E"/>
-                                                            <constraint firstAttribute="width" constant="10" id="PZi-uF-x20"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g5h-tS-EGQ">
+                                                <rect key="frame" x="90" y="97" width="10" height="103"/>
+                                                <color key="backgroundColor" name="CarColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="10" id="TgP-8z-kCg"/>
-                                                    <constraint firstAttribute="bottom" secondItem="dYB-60-CzJ" secondAttribute="bottom" constant="50" id="bAe-lr-LsA"/>
-                                                    <constraint firstItem="dYB-60-CzJ" firstAttribute="centerX" secondItem="8Xx-Io-IQa" secondAttribute="centerX" id="oNj-fo-eQP"/>
-                                                    <constraint firstAttribute="height" constant="200" id="oh5-vd-RQu"/>
+                                                    <constraint firstAttribute="width" constant="10" id="fOy-Q7-Fzf"/>
+                                                    <constraint firstAttribute="height" constant="103" id="kaT-b3-KcS"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ru5-cu-m8z">
-                                                <rect key="frame" x="80" y="0.0" width="10" height="200"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="An6-Jx-jME">
-                                                        <rect key="frame" x="0.0" y="86.999999999999986" width="10" height="73.000000000000014"/>
-                                                        <color key="backgroundColor" name="CarColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="73" id="YcX-rq-87K"/>
-                                                            <constraint firstAttribute="width" constant="10" id="wMq-WV-L9O"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yil-N7-aXS">
+                                                <rect key="frame" x="110" y="83" width="10" height="117"/>
+                                                <color key="backgroundColor" name="CarColor"/>
                                                 <constraints>
-                                                    <constraint firstItem="An6-Jx-jME" firstAttribute="centerX" secondItem="Ru5-cu-m8z" secondAttribute="centerX" id="03r-XU-tgF"/>
-                                                    <constraint firstAttribute="bottom" secondItem="An6-Jx-jME" secondAttribute="bottom" constant="40" id="Ash-8w-hKh"/>
-                                                    <constraint firstAttribute="height" constant="200" id="XMj-bL-adD"/>
-                                                    <constraint firstAttribute="width" constant="10" id="jKj-GW-dq6"/>
+                                                    <constraint firstAttribute="width" constant="10" id="DvH-6L-wNg"/>
+                                                    <constraint firstAttribute="height" constant="117" id="mhh-Vh-VbE"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n8f-Kj-OV9">
-                                                <rect key="frame" x="100" y="0.0" width="10" height="200"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JIY-w0-rbU">
-                                                        <rect key="frame" x="0.0" y="82" width="10" height="118"/>
-                                                        <color key="backgroundColor" name="CarColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="10" id="OiM-ll-YxN"/>
-                                                            <constraint firstAttribute="height" constant="118" id="h6f-gG-YKd"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SkT-kw-MfG">
+                                                <rect key="frame" x="130" y="80" width="10" height="120"/>
+                                                <color key="backgroundColor" name="CarColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="10" id="3Uj-Sh-sch"/>
-                                                    <constraint firstAttribute="bottom" secondItem="JIY-w0-rbU" secondAttribute="bottom" id="Ifd-tR-AEG"/>
-                                                    <constraint firstItem="JIY-w0-rbU" firstAttribute="centerX" secondItem="n8f-Kj-OV9" secondAttribute="centerX" id="LJP-sE-vM6"/>
-                                                    <constraint firstAttribute="height" constant="200" id="pS9-1k-2p2"/>
+                                                    <constraint firstAttribute="height" constant="120" id="oh8-V3-8LK"/>
+                                                    <constraint firstAttribute="width" constant="10" id="z0j-AQ-eQ4"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rlL-tv-kHa">
-                                                <rect key="frame" x="120" y="0.0" width="10" height="200"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="li7-6Z-Xtb">
-                                                        <rect key="frame" x="0.0" y="79" width="10" height="121"/>
-                                                        <color key="backgroundColor" name="CarColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="10" id="5HX-UU-NZa"/>
-                                                            <constraint firstAttribute="height" constant="121" id="ewM-O5-ccT"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VMa-E4-0he">
+                                                <rect key="frame" x="150" y="80" width="10" height="120"/>
+                                                <color key="backgroundColor" name="CarColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="bottom" secondItem="li7-6Z-Xtb" secondAttribute="bottom" id="as6-gf-di7"/>
-                                                    <constraint firstAttribute="width" constant="10" id="bwl-Wa-0Su"/>
-                                                    <constraint firstItem="li7-6Z-Xtb" firstAttribute="centerX" secondItem="rlL-tv-kHa" secondAttribute="centerX" id="gpZ-Qm-nE3"/>
-                                                    <constraint firstAttribute="height" constant="200" id="kVD-sE-eRX"/>
+                                                    <constraint firstAttribute="height" constant="120" id="d61-FP-AmD"/>
+                                                    <constraint firstAttribute="width" constant="10" id="p7H-2K-cYt"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HjK-XA-jLx">
-                                                <rect key="frame" x="140" y="0.0" width="10" height="200"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NkA-Wz-BV7">
-                                                        <rect key="frame" x="0.0" y="77" width="10" height="123"/>
-                                                        <color key="backgroundColor" name="CarColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="10" id="Bbq-MQ-yEN"/>
-                                                            <constraint firstAttribute="height" constant="123" id="UZj-q5-6P1"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tlg-iN-caP">
+                                                <rect key="frame" x="170" y="83" width="10" height="117"/>
+                                                <color key="backgroundColor" name="CarColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="bottom" secondItem="NkA-Wz-BV7" secondAttribute="bottom" id="OcK-Dl-xWD"/>
-                                                    <constraint firstItem="NkA-Wz-BV7" firstAttribute="centerX" secondItem="HjK-XA-jLx" secondAttribute="centerX" id="bra-gI-CEA"/>
-                                                    <constraint firstAttribute="height" constant="200" id="f2u-9D-eGd"/>
-                                                    <constraint firstAttribute="width" constant="10" id="oh4-3Z-ZaO"/>
+                                                    <constraint firstAttribute="height" constant="117" id="e7A-S2-9Ii"/>
+                                                    <constraint firstAttribute="width" constant="10" id="fwW-5J-3yf"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XsP-HP-2bh">
-                                                <rect key="frame" x="160" y="0.0" width="10" height="200"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kcA-ZY-65J">
-                                                        <rect key="frame" x="0.0" y="79" width="10" height="121"/>
-                                                        <color key="backgroundColor" name="CarColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="121" id="JY3-SB-xt2"/>
-                                                            <constraint firstAttribute="width" constant="10" id="zvD-zd-OmL"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3SY-D7-FWo">
+                                                <rect key="frame" x="190" y="88" width="10" height="112"/>
+                                                <color key="backgroundColor" name="CarColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="bottom" secondItem="kcA-ZY-65J" secondAttribute="bottom" id="E9B-68-VzX"/>
-                                                    <constraint firstItem="kcA-ZY-65J" firstAttribute="centerX" secondItem="XsP-HP-2bh" secondAttribute="centerX" id="VTR-3x-VT9"/>
-                                                    <constraint firstAttribute="height" constant="200" id="bU8-XK-ttF"/>
-                                                    <constraint firstAttribute="width" constant="10" id="xbm-R8-ual"/>
+                                                    <constraint firstAttribute="width" constant="10" id="8aF-Au-RaL"/>
+                                                    <constraint firstAttribute="height" constant="112" id="a92-0G-CxX"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oVZ-w6-jbU">
-                                                <rect key="frame" x="180" y="0.0" width="10" height="200"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qZ4-bf-0BI">
-                                                        <rect key="frame" x="0.0" y="86" width="10" height="114"/>
-                                                        <color key="backgroundColor" name="CarColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="10" id="aSe-EJ-fMo"/>
-                                                            <constraint firstAttribute="height" constant="114" id="r0K-he-5Wm"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KNK-OW-T30">
+                                                <rect key="frame" x="210" y="108" width="10" height="92"/>
+                                                <color key="backgroundColor" name="CarColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="10" id="SfR-Ku-uCv"/>
-                                                    <constraint firstItem="qZ4-bf-0BI" firstAttribute="centerX" secondItem="oVZ-w6-jbU" secondAttribute="centerX" id="XPL-u0-CeB"/>
-                                                    <constraint firstAttribute="height" constant="200" id="fTe-b7-PkF"/>
-                                                    <constraint firstAttribute="bottom" secondItem="qZ4-bf-0BI" secondAttribute="bottom" id="s5R-eU-h9J"/>
+                                                    <constraint firstAttribute="width" constant="10" id="3u0-GG-zhD"/>
+                                                    <constraint firstAttribute="height" constant="92" id="EMs-hm-281"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jGN-k3-irv">
-                                                <rect key="frame" x="200" y="0.0" width="10" height="200"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qRq-II-ysB">
-                                                        <rect key="frame" x="0.0" y="97" width="10" height="103"/>
-                                                        <color key="backgroundColor" name="CarColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="103" id="hEf-1P-LV1"/>
-                                                            <constraint firstAttribute="width" constant="10" id="m4l-BT-J0I"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WVT-Rd-nNE">
+                                                <rect key="frame" x="230" y="125" width="10" height="75"/>
+                                                <color key="backgroundColor" name="CarColor"/>
                                                 <constraints>
-                                                    <constraint firstItem="qRq-II-ysB" firstAttribute="centerX" secondItem="jGN-k3-irv" secondAttribute="centerX" id="VuL-tM-IV2"/>
-                                                    <constraint firstAttribute="height" constant="200" id="XCN-Fw-mTS"/>
-                                                    <constraint firstAttribute="bottom" secondItem="qRq-II-ysB" secondAttribute="bottom" id="egv-7R-M2f"/>
-                                                    <constraint firstAttribute="width" constant="10" id="mxl-df-Sbo"/>
+                                                    <constraint firstAttribute="height" constant="75" id="lh2-IL-tSX"/>
+                                                    <constraint firstAttribute="width" constant="10" id="xPK-U7-Am4"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zyg-Mm-aYG">
-                                                <rect key="frame" x="220" y="0.0" width="10" height="200"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x4K-bw-cvU">
-                                                        <rect key="frame" x="0.0" y="113" width="10" height="87"/>
-                                                        <color key="backgroundColor" name="CarColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="10" id="5Tu-oN-N89"/>
-                                                            <constraint firstAttribute="height" constant="87" id="zns-fY-0mC"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Y4-8k-o4h">
+                                                <rect key="frame" x="250" y="133" width="10" height="67"/>
+                                                <color key="backgroundColor" name="CarColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="10" id="2WD-Pa-aaY"/>
-                                                    <constraint firstAttribute="height" constant="200" id="IS9-C6-62g"/>
-                                                    <constraint firstAttribute="bottom" secondItem="x4K-bw-cvU" secondAttribute="bottom" id="Ulk-ef-lVI"/>
-                                                    <constraint firstItem="x4K-bw-cvU" firstAttribute="centerX" secondItem="zyg-Mm-aYG" secondAttribute="centerX" id="reT-uq-WR1"/>
+                                                    <constraint firstAttribute="width" constant="10" id="2Rv-Mf-Mj0"/>
+                                                    <constraint firstAttribute="height" constant="67" id="K8G-oq-80p"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rJi-gB-1QV">
-                                                <rect key="frame" x="240" y="0.0" width="10" height="200"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tPX-7v-lUO">
-                                                        <rect key="frame" x="0.0" y="128" width="10" height="72"/>
-                                                        <color key="backgroundColor" name="CarColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="10" id="nQ5-Sm-QU4"/>
-                                                            <constraint firstAttribute="height" constant="72" id="qby-r4-CHP"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9mT-lN-lvd">
+                                                <rect key="frame" x="270" y="129" width="10" height="71"/>
+                                                <color key="backgroundColor" name="CarColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="bottom" secondItem="tPX-7v-lUO" secondAttribute="bottom" id="7GS-eb-GyB"/>
-                                                    <constraint firstAttribute="height" constant="200" id="bY6-vt-ZbI"/>
-                                                    <constraint firstItem="tPX-7v-lUO" firstAttribute="centerX" secondItem="rJi-gB-1QV" secondAttribute="centerX" id="iE3-ub-GAr"/>
-                                                    <constraint firstAttribute="width" constant="10" id="zdf-ev-pQI"/>
+                                                    <constraint firstAttribute="height" constant="71" id="0Ww-NM-r4w"/>
+                                                    <constraint firstAttribute="width" constant="10" id="JJV-SG-XQT"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pCU-rx-HQ1">
-                                                <rect key="frame" x="260" y="0.0" width="10" height="200"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZUs-WF-UkM">
-                                                        <rect key="frame" x="0.0" y="132" width="10" height="68"/>
-                                                        <color key="backgroundColor" name="CarColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="68" id="NwX-jr-6Fp"/>
-                                                            <constraint firstAttribute="width" constant="10" id="T9q-tj-k1h"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xJa-t8-Ng2">
+                                                <rect key="frame" x="290" y="130" width="10" height="25"/>
+                                                <color key="backgroundColor" name="CarColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="bottom" secondItem="ZUs-WF-UkM" secondAttribute="bottom" id="4KE-At-Je7"/>
-                                                    <constraint firstAttribute="width" constant="10" id="7Fk-0Y-aYJ"/>
-                                                    <constraint firstAttribute="height" constant="200" id="eA0-8s-Mbd"/>
-                                                    <constraint firstItem="ZUs-WF-UkM" firstAttribute="centerX" secondItem="pCU-rx-HQ1" secondAttribute="centerX" id="pYK-iP-ZQ5"/>
+                                                    <constraint firstAttribute="width" constant="10" id="a8V-Ml-HMm"/>
+                                                    <constraint firstAttribute="height" constant="25" id="cKI-sY-xaJ"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZTM-n0-5dz">
-                                                <rect key="frame" x="280" y="0.0" width="10" height="200"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kIg-PT-HAb">
-                                                        <rect key="frame" x="0.0" y="131" width="10" height="69"/>
-                                                        <color key="backgroundColor" name="CarColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="69" id="25K-5f-A78"/>
-                                                            <constraint firstAttribute="width" constant="10" id="uXY-OQ-PR4"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WCi-5j-gFd">
+                                                <rect key="frame" x="310" y="125" width="10" height="25"/>
+                                                <color key="backgroundColor" name="CarColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="bottom" secondItem="kIg-PT-HAb" secondAttribute="bottom" id="HGm-eB-ED4"/>
-                                                    <constraint firstItem="kIg-PT-HAb" firstAttribute="centerX" secondItem="ZTM-n0-5dz" secondAttribute="centerX" id="cS9-xX-c8r"/>
-                                                    <constraint firstAttribute="height" constant="200" id="gWo-hL-oQg"/>
-                                                    <constraint firstAttribute="width" constant="10" id="rpJ-sv-hdy"/>
+                                                    <constraint firstAttribute="height" constant="25" id="9cz-af-ERn"/>
+                                                    <constraint firstAttribute="width" constant="10" id="PAJ-NN-bqx"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lu3-Nz-JNV">
-                                                <rect key="frame" x="300" y="0.0" width="10" height="200"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qdw-rq-Fsw">
-                                                        <rect key="frame" x="0.0" y="130" width="10" height="30"/>
-                                                        <color key="backgroundColor" name="CarColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="30" id="55q-sT-Kjt"/>
-                                                            <constraint firstAttribute="width" constant="10" id="vfA-Tk-87a"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nCm-qd-rHm">
+                                                <rect key="frame" x="330" y="130" width="10" height="25"/>
+                                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <constraints>
-                                                    <constraint firstItem="Qdw-rq-Fsw" firstAttribute="centerX" secondItem="Lu3-Nz-JNV" secondAttribute="centerX" id="8v6-bH-Jrg"/>
-                                                    <constraint firstAttribute="bottom" secondItem="Qdw-rq-Fsw" secondAttribute="bottom" constant="40" id="9I5-kB-FEV"/>
-                                                    <constraint firstAttribute="width" constant="10" id="xAo-0M-Mf3"/>
-                                                    <constraint firstAttribute="height" constant="200" id="zdD-uA-N47"/>
+                                                    <constraint firstAttribute="width" constant="10" id="BWG-rJ-c5Z"/>
+                                                    <constraint firstAttribute="height" constant="25" id="toB-1n-mhi"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j9L-0U-7lS">
-                                                <rect key="frame" x="320" y="0.0" width="10" height="200"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GJa-Jq-LS6">
-                                                        <rect key="frame" x="0.0" y="130" width="10" height="20"/>
-                                                        <color key="backgroundColor" name="CarColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="10" id="xoh-2o-stj"/>
-                                                            <constraint firstAttribute="height" constant="20" id="ynf-SG-hSM"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1Pi-yi-64y">
+                                                <rect key="frame" x="350" y="155" width="10" height="45"/>
+                                                <color key="backgroundColor" name="CarColor"/>
                                                 <constraints>
-                                                    <constraint firstItem="GJa-Jq-LS6" firstAttribute="centerX" secondItem="j9L-0U-7lS" secondAttribute="centerX" id="7Ga-xH-5gY"/>
-                                                    <constraint firstAttribute="bottom" secondItem="GJa-Jq-LS6" secondAttribute="bottom" constant="50" id="Qci-ho-KY5"/>
-                                                    <constraint firstAttribute="width" constant="10" id="nzx-Ac-2fu"/>
+                                                    <constraint firstAttribute="height" constant="45" id="8S8-Gn-kzY"/>
+                                                    <constraint firstAttribute="width" constant="10" id="jfE-mF-Hzn"/>
                                                 </constraints>
                                             </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y12-Q3-NKs">
-                                                <rect key="frame" x="340" y="0.0" width="10" height="200"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ttb-kd-8mD">
-                                                        <rect key="frame" x="0.0" y="136" width="10" height="24"/>
-                                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="10" id="60F-qn-O43"/>
-                                                            <constraint firstAttribute="height" constant="24" id="jDp-oz-NiQ"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qr9-Nz-XgD">
+                                                <rect key="frame" x="50" y="122" width="10" height="28"/>
+                                                <color key="backgroundColor" name="CarColor"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="200" id="dLC-tQ-to7"/>
-                                                    <constraint firstItem="ttb-kd-8mD" firstAttribute="centerX" secondItem="y12-Q3-NKs" secondAttribute="centerX" id="kEw-ak-trn"/>
-                                                    <constraint firstAttribute="width" constant="10" id="oPz-Ed-BjO"/>
-                                                    <constraint firstAttribute="bottom" secondItem="ttb-kd-8mD" secondAttribute="bottom" constant="40" id="qa2-tH-cbF"/>
-                                                </constraints>
-                                            </view>
-                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CsO-Xt-8g3">
-                                                <rect key="frame" x="360" y="0.0" width="10" height="200"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="leX-rR-D1W">
-                                                        <rect key="frame" x="0.0" y="158" width="10" height="42"/>
-                                                        <color key="backgroundColor" name="CarColor"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="height" constant="42" id="BN7-Ec-31U"/>
-                                                            <constraint firstAttribute="width" constant="10" id="b7c-TQ-dLd"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="200" id="SKI-LV-Iaa"/>
-                                                    <constraint firstAttribute="bottom" secondItem="leX-rR-D1W" secondAttribute="bottom" id="X7q-cO-UB0"/>
-                                                    <constraint firstItem="leX-rR-D1W" firstAttribute="centerX" secondItem="CsO-Xt-8g3" secondAttribute="centerX" id="mFc-CD-ynQ"/>
-                                                    <constraint firstAttribute="width" constant="10" id="ofb-G1-SpO"/>
+                                                    <constraint firstAttribute="height" constant="28" id="9D2-WT-4yy"/>
+                                                    <constraint firstAttribute="width" constant="10" id="Bga-Z7-4T7"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
-                                    </stackView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="wheel" translatesAutoresizingMaskIntoConstraints="NO" id="PZz-ai-Spj">
-                                        <rect key="frame" x="31" y="162" width="68" height="68"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="68" id="0EF-Kq-uDO"/>
-                                            <constraint firstAttribute="height" constant="68" id="b4l-MI-iQj"/>
+                                            <constraint firstItem="WCi-5j-gFd" firstAttribute="leading" secondItem="xJa-t8-Ng2" secondAttribute="trailing" constant="10" id="0J1-AU-j1E"/>
+                                            <constraint firstItem="1Pi-yi-64y" firstAttribute="leading" secondItem="nCm-qd-rHm" secondAttribute="trailing" constant="10" id="1Me-6R-wkC"/>
+                                            <constraint firstAttribute="bottom" secondItem="SkT-kw-MfG" secondAttribute="bottom" id="3n9-3O-OUL"/>
+                                            <constraint firstItem="Q2N-nt-kov" firstAttribute="leading" secondItem="qr9-Nz-XgD" secondAttribute="trailing" constant="10" id="4DE-Kv-cTy"/>
+                                            <constraint firstItem="S3t-0s-vZo" firstAttribute="leading" secondItem="ECh-IY-mDI" secondAttribute="trailing" constant="10" id="6BA-rN-Vhh"/>
+                                            <constraint firstAttribute="bottom" secondItem="Q2N-nt-kov" secondAttribute="bottom" constant="45" id="7Dc-zD-GLS"/>
+                                            <constraint firstItem="tlg-iN-caP" firstAttribute="leading" secondItem="VMa-E4-0he" secondAttribute="trailing" constant="10" id="88M-1i-jEW"/>
+                                            <constraint firstAttribute="bottom" secondItem="9mT-lN-lvd" secondAttribute="bottom" id="8op-pt-M1C"/>
+                                            <constraint firstItem="qr9-Nz-XgD" firstAttribute="leading" secondItem="S3t-0s-vZo" secondAttribute="trailing" constant="10" id="9dJ-3X-CcK"/>
+                                            <constraint firstItem="nCm-qd-rHm" firstAttribute="leading" secondItem="WCi-5j-gFd" secondAttribute="trailing" constant="10" id="C26-cN-Anb"/>
+                                            <constraint firstAttribute="height" constant="200" id="DM6-Hd-2AP"/>
+                                            <constraint firstAttribute="bottom" secondItem="qr9-Nz-XgD" secondAttribute="bottom" constant="50" id="ED5-Lb-uSI"/>
+                                            <constraint firstItem="g5h-tS-EGQ" firstAttribute="leading" secondItem="Q2N-nt-kov" secondAttribute="trailing" constant="10" id="Ehv-LZ-fML"/>
+                                            <constraint firstItem="3SY-D7-FWo" firstAttribute="leading" secondItem="tlg-iN-caP" secondAttribute="trailing" constant="10" id="Fbz-rG-Zbb"/>
+                                            <constraint firstAttribute="bottom" secondItem="VMa-E4-0he" secondAttribute="bottom" id="GyC-SS-TSV"/>
+                                            <constraint firstItem="SkT-kw-MfG" firstAttribute="leading" secondItem="Yil-N7-aXS" secondAttribute="trailing" constant="10" id="HVx-jl-Z4H"/>
+                                            <constraint firstItem="ECh-IY-mDI" firstAttribute="leading" secondItem="vgX-Lm-Cxh" secondAttribute="leading" constant="10" id="Jym-0I-xBS"/>
+                                            <constraint firstAttribute="bottom" secondItem="1Pi-yi-64y" secondAttribute="bottom" id="NqO-eA-DGb"/>
+                                            <constraint firstAttribute="bottom" secondItem="KNK-OW-T30" secondAttribute="bottom" id="R7t-I7-ZbC"/>
+                                            <constraint firstItem="Yil-N7-aXS" firstAttribute="leading" secondItem="g5h-tS-EGQ" secondAttribute="trailing" constant="10" id="SdP-We-zzP"/>
+                                            <constraint firstAttribute="bottom" secondItem="WVT-Rd-nNE" secondAttribute="bottom" id="ViT-mq-9D6"/>
+                                            <constraint firstAttribute="bottom" secondItem="WCi-5j-gFd" secondAttribute="bottom" constant="50" id="Zzj-Hd-aB1"/>
+                                            <constraint firstItem="9mT-lN-lvd" firstAttribute="leading" secondItem="4Y4-8k-o4h" secondAttribute="trailing" constant="10" id="bMF-rk-iIO"/>
+                                            <constraint firstAttribute="bottom" secondItem="nCm-qd-rHm" secondAttribute="bottom" constant="45" id="bg5-Iv-y5N"/>
+                                            <constraint firstItem="xJa-t8-Ng2" firstAttribute="leading" secondItem="9mT-lN-lvd" secondAttribute="trailing" constant="10" id="cBa-Av-JWL"/>
+                                            <constraint firstAttribute="bottom" secondItem="4Y4-8k-o4h" secondAttribute="bottom" id="f4Z-ul-eyA"/>
+                                            <constraint firstAttribute="bottom" secondItem="ECh-IY-mDI" secondAttribute="bottom" id="iyl-bf-5eC"/>
+                                            <constraint firstAttribute="bottom" secondItem="3SY-D7-FWo" secondAttribute="bottom" id="j3e-a9-pc8"/>
+                                            <constraint firstAttribute="bottom" secondItem="S3t-0s-vZo" secondAttribute="bottom" constant="45" id="qMX-m3-jjT"/>
+                                            <constraint firstItem="KNK-OW-T30" firstAttribute="leading" secondItem="3SY-D7-FWo" secondAttribute="trailing" constant="10" id="s1s-Wu-UKy"/>
+                                            <constraint firstAttribute="bottom" secondItem="tlg-iN-caP" secondAttribute="bottom" id="spR-Kp-Kzz"/>
+                                            <constraint firstAttribute="bottom" secondItem="Yil-N7-aXS" secondAttribute="bottom" id="sse-mF-sqC"/>
+                                            <constraint firstAttribute="width" constant="370" id="uKv-bG-tvB"/>
+                                            <constraint firstAttribute="bottom" secondItem="g5h-tS-EGQ" secondAttribute="bottom" id="vEw-n2-cic"/>
+                                            <constraint firstItem="VMa-E4-0he" firstAttribute="leading" secondItem="SkT-kw-MfG" secondAttribute="trailing" constant="10" id="weQ-qP-REX"/>
+                                            <constraint firstItem="WVT-Rd-nNE" firstAttribute="leading" secondItem="KNK-OW-T30" secondAttribute="trailing" constant="10" id="y9X-0L-aUQ"/>
+                                            <constraint firstAttribute="bottom" secondItem="xJa-t8-Ng2" secondAttribute="bottom" constant="45" id="yar-b1-r7O"/>
+                                            <constraint firstItem="4Y4-8k-o4h" firstAttribute="leading" secondItem="WVT-Rd-nNE" secondAttribute="trailing" constant="10" id="ys2-HD-Gim"/>
+                                        </constraints>
+                                    </view>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="wheel" translatesAutoresizingMaskIntoConstraints="NO" id="Wi8-ER-A5d">
+                                        <rect key="frame" x="21" y="114" width="68" height="68"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="68" id="4kD-82-6Gy"/>
+                                            <constraint firstAttribute="height" constant="68" id="Hu0-Rx-z9I"/>
                                         </constraints>
                                     </imageView>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="wheel" translatesAutoresizingMaskIntoConstraints="NO" id="nJ7-Xa-zwQ">
-                                        <rect key="frame" x="291.33333333333337" y="162" width="68" height="68"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="wheel" translatesAutoresizingMaskIntoConstraints="NO" id="BRJ-nQ-Kgm">
+                                        <rect key="frame" x="281" y="114" width="68" height="68"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="68" id="3Qy-pr-Qj1"/>
-                                            <constraint firstAttribute="height" constant="68" id="v53-4B-rUk"/>
+                                            <constraint firstAttribute="height" constant="68" id="3E3-6P-4jl"/>
+                                            <constraint firstAttribute="width" constant="68" id="cxK-A7-2S5"/>
                                         </constraints>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="nJ7-Xa-zwQ" secondAttribute="trailing" constant="10.67" id="2Xt-HT-4YN"/>
-                                    <constraint firstAttribute="height" constant="230" id="DM6-Hd-2AP"/>
-                                    <constraint firstAttribute="bottom" secondItem="PZz-ai-Spj" secondAttribute="bottom" id="Qhc-QI-pmw"/>
-                                    <constraint firstAttribute="bottom" secondItem="Y3F-i2-VfE" secondAttribute="bottom" constant="20" id="cbT-Ng-8vU"/>
-                                    <constraint firstAttribute="bottom" secondItem="nJ7-Xa-zwQ" secondAttribute="bottom" id="eiu-dz-wzY"/>
-                                    <constraint firstItem="PZz-ai-Spj" firstAttribute="leading" secondItem="vgX-Lm-Cxh" secondAttribute="leading" constant="31" id="f9d-Gy-4nQ"/>
-                                    <constraint firstAttribute="width" constant="370" id="uKv-bG-tvB"/>
-                                    <constraint firstItem="Y3F-i2-VfE" firstAttribute="centerX" secondItem="vgX-Lm-Cxh" secondAttribute="centerX" id="z99-zC-q1R"/>
+                                    <constraint firstItem="vgX-Lm-Cxh" firstAttribute="centerX" secondItem="wML-wH-NQ2" secondAttribute="centerX" id="27m-c4-bje"/>
+                                    <constraint firstAttribute="height" constant="200" id="6ye-h5-pJk"/>
+                                    <constraint firstAttribute="trailing" secondItem="BRJ-nQ-Kgm" secondAttribute="trailing" constant="21" id="8Dx-Nb-fM4"/>
+                                    <constraint firstAttribute="bottom" secondItem="BRJ-nQ-Kgm" secondAttribute="bottom" constant="18" id="G50-lK-TKM"/>
+                                    <constraint firstAttribute="bottom" secondItem="vgX-Lm-Cxh" secondAttribute="bottom" constant="40" id="GUK-8s-Evq"/>
+                                    <constraint firstAttribute="bottom" secondItem="Wi8-ER-A5d" secondAttribute="bottom" constant="18" id="HDa-Cq-Oo1"/>
+                                    <constraint firstItem="Wi8-ER-A5d" firstAttribute="leading" secondItem="wML-wH-NQ2" secondAttribute="leading" constant="21" id="ogJ-xA-rkg"/>
+                                    <constraint firstAttribute="width" constant="370" id="wOd-eZ-j5a"/>
                                 </constraints>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z43-uP-Dus">
+                                <rect key="frame" x="705" y="303" width="89" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.forward.fill" catalog="system" imagePlacement="trailing" title="drive"/>
+                                <connections>
+                                    <action selector="forwardButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YSW-ym-NSa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SEw-Cs-sTv">
+                                <rect key="frame" x="64" y="303" width="108" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="arrowshape.backward.fill" catalog="system" title="reverse"/>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kdR-Hg-cUO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="vgX-Lm-Cxh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ZAM-Q9-v2z"/>
-                            <constraint firstItem="vgX-Lm-Cxh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y4J-Gp-Io4"/>
+                            <constraint firstItem="wML-wH-NQ2" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="MFe-KZ-9F3"/>
+                            <constraint firstItem="wML-wH-NQ2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mx3-ah-VHr"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="bottomConstraint" destination="bSy-gU-sCD" id="Ctu-dT-isN"/>
-                        <outlet property="lines" destination="Y3F-i2-VfE" id="izJ-lP-E22"/>
+                        <outlet property="car" destination="wML-wH-NQ2" id="PPz-3s-vIR"/>
+                        <outlet property="linesContainer" destination="vgX-Lm-Cxh" id="YEC-Bi-FsK"/>
+                        <outletCollection property="wheels" destination="Wi8-ER-A5d" collectionClass="NSMutableArray" id="CQP-9J-o4T"/>
+                        <outletCollection property="wheels" destination="BRJ-nQ-Kgm" collectionClass="NSMutableArray" id="NZE-vG-weL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="100" y="2.1126760563380285"/>
+            <point key="canvasLocation" x="100" y="0.76335877862595414"/>
         </scene>
     </scenes>
     <resources>
+        <image name="arrowshape.backward.fill" catalog="system" width="128" height="104"/>
+        <image name="arrowshape.forward.fill" catalog="system" width="128" height="104"/>
         <image name="wheel" width="344" height="344"/>
         <namedColor name="CarColor">
-            <color red="0.68599998950958252" green="0.32199999690055847" blue="0.87100005149841309" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.55699998140335083" green="0.55699998140335083" blue="0.57599997520446777" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="secondaryLabelColor">
-            <color red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
