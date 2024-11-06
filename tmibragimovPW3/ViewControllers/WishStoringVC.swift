@@ -9,13 +9,16 @@ import Foundation
 import UIKit
 
 final class WishStoringVC: UIViewController {
+    private let defaults = UserDefaults.standard
     let wishStoringView = WishStoringView()
     private enum Constants {
+        static let wishesKey: String = "wishesArray"
         static let numberOfSections: Int = 2
     }
-    private var wishArray: [String] = ["I wish I could fly", "I wish I could eat ice cream", "I wish I could dance", "I wish I could sing", "I wish I could swim"]
+    private var wishArray: [String] = []
 
     override func loadView() {
+        wishArray = defaults.array(forKey: Constants.wishesKey) as? [String] ?? []
         view = wishStoringView
     }
     
@@ -29,15 +32,15 @@ extension WishStoringVC: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch section {
         case 0:
-            return wishArray.count
-        default:
             return 1
+        default:
+            return wishArray.count
         }
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         switch indexPath.section {
-        case 0:
+        case 1:
             let cell = tableView.dequeueReusableCell(withIdentifier: WrittenWishCell.reuseId, for: indexPath)
             guard let wishCell = cell as? WrittenWishCell else { return cell }
             wishCell.configure(with: wishArray[indexPath.row])
@@ -47,6 +50,7 @@ extension WishStoringVC: UITableViewDataSource {
             guard let addWishCell = cell as? AddWishCell else { return cell }
             addWishCell.addWish = { [weak self] wishText in
                 self?.wishArray.append(wishText)
+                self?.defaults.set(self?.wishArray, forKey: Constants.wishesKey)
                 tableView.reloadData()
             }
             return addWishCell

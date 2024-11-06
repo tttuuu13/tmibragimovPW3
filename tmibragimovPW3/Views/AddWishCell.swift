@@ -16,8 +16,8 @@ final class AddWishCell: UITableViewCell {
         static let wrapOffsetH: CGFloat = 10
         
         static let addButtonColor: UIColor = .black.withAlphaComponent(0.2)
-        static let addButtonSize: CGFloat = 40
-        static let addButtonOffsetH: CGFloat = 5
+        static let addButtonSize: CGFloat = 30
+        static let addButtonOffsetH: CGFloat = 2
         
         static let textFieldOffsetH: CGFloat = 5
     }
@@ -30,12 +30,6 @@ final class AddWishCell: UITableViewCell {
         configureUI()
     }
     
-    override func didMoveToWindow() {
-        super.didMoveToWindow()
-        textField.becomeFirstResponder()
-        addButton.becomeFirstResponder()
-    }
-    
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
@@ -46,16 +40,16 @@ final class AddWishCell: UITableViewCell {
         let wrap: UIView = UIView()
         wrap.backgroundColor = Constants.wrapColor
         wrap.layer.cornerRadius = Constants.wrapRadius
-        addSubview(wrap)
         configureTextField()
         configureAddButton()
         wrap.addSubview(textField)
         wrap.addSubview(addButton)
+        contentView.addSubview(wrap)
         
         wrap.translatesAutoresizingMaskIntoConstraints = false
         NSLayoutConstraint.activate([
             wrap.topAnchor.constraint(equalTo: topAnchor, constant: Constants.wrapOffsetV),
-            wrap.bottomAnchor.constraint(equalTo: bottomAnchor, constant: Constants.wrapOffsetV),
+            wrap.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -1 * Constants.wrapOffsetV),
             wrap.leadingAnchor.constraint(equalTo: leadingAnchor, constant: Constants.wrapOffsetH),
             wrap.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -1 * Constants.wrapOffsetH),
             addButton.widthAnchor.constraint(equalToConstant: Constants.addButtonSize),
@@ -85,9 +79,9 @@ final class AddWishCell: UITableViewCell {
     
     @objc
     private func addButtonTapped() {
-        print("tapped")
         if textField.hasText {
-            addWish!(textField.text ?? "")
+            addWish?(textField.text ?? "")
+            textField.text = ""
         }
     }
 }
